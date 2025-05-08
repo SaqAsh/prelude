@@ -85,7 +85,7 @@ _If you’re reading from the Prelude documentation page, this section may be re
 
 ```sh
 git clone -b prelude https://github.com/overture-stack/conductor.git
-cd conductor
+cd apps/conductor
 ```
 
 ### 2. Pre-deployment Check
@@ -93,7 +93,7 @@ cd conductor
 Run a pre-deployment check:
 
 ```sh
-make Phase0
+make phase0
 ```
 
 **Requirements:**
